@@ -1,6 +1,7 @@
 import pygame 
 import pygame.gfxdraw
 import api
+import sys
 import math 
 import threading
 from tkinter.filedialog import askdirectory,asksaveasfilename,askopenfilenames
@@ -609,5 +610,5 @@ class GUI():
             self.screen.blit(self.backs[self.back_button.collidepoint(mouse_pos)],(145,self.screen_height-102))
             self.screen.blit(self.refreshed[self.refresh_button.collidepoint(mouse_pos)],(self.screen_width-102,22))
 
-instance = GUI(True)
+instance = GUI(sys.argv[1] if len(sys.argv)>1 else False)
 instance.run()
