@@ -13,7 +13,7 @@ The official site [data.gouv.fr](https://www.data.gouv.fr/) urges you to respect
 ## The GUI
 ![Illustration of the GUI](https://github.com/EwannAnacombesque/cloud-data.gouv/blob/main/Illustration/illustration_files.png)
 ### Safe Mode
-You can test the GUI by yourself without having to create an account and an organization with the safe mode, just specify when executing the gui.py file.
+You can test the GUI by yourself without having to create an account and an organization with the safe mode, just specify when executing the gui.py file : `python gui.py SAFE_MODE`.
 ### Functionalities
 The user is able to create and delete folders, download, upload and delete files in folders.
 Everything is crystal clear, just enjoy the unlimited cloud storage.
