@@ -1,7 +1,7 @@
 # Unlimited Cloud Storage on data.gouv.fr 
 ## The project
 With [data.gouv.fr](https://www.data.gouv.fr/) API, this program makes you able to _freely store data of any type_ on data.gouv.fr. The site initially only allows text / spreadsheet files, with this program, you can upload whatever you want.  
-You can either send files with my _API_ using api.py, or with the _GUI_ using GUI.py.  
+You can either send files with my _API_ using api.py, or with the _GUI_ using gui.py.  
 The official site [data.gouv.fr](https://www.data.gouv.fr/) urges you to respect its [GCU](https://www.data.gouv.fr/fr/terms/), I am **not** responsible of what you upload and do not encourage you to use this to store personal data.  
  
 ## How to use the Cloud 
